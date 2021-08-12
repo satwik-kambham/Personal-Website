@@ -3,5 +3,9 @@ document.getElementById("githubLink").addEventListener("click", () => {
 });
 
 document.getElementById("linkedinLink").addEventListener("click", () => {
-    window.open("https://www.linkedin.com/in/satwik-kambham/", "_blank");
-  });
+  window.open("https://www.linkedin.com/in/satwik-kambham/", "_blank");
+});
+
+document.getElementById("blogLink").addEventListener("click", () => {
+  window.open("https://satwikkambham.blogspot.com/", "_blank");
+});

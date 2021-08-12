@@ -81,7 +81,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 40vh;
   padding: 20vh 20vw 40vh 20vw;
   color: #2c2525;
   justify-content: center;
@@ -106,4 +105,47 @@ body {
 
 .niceButton:hover {
   cursor: pointer;
+}
+
+#projects {
+  padding: 0px 10px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: 1fr 6fr;
+  column-gap: 10px;
+}
+
+.project p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.project span {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 150%;
+}
+
+.project img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  min-width: 30vw;
+  max-width: 30vw;
+  min-height: 15vw;
+  max-height: 20vw;
+}
+
+hr {
+  border-width: 0 0 1px;
+  color: skyblue;
+  border-style: solid;
 }
