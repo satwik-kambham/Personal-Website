@@ -144,6 +144,46 @@ body {
   max-height: 20vw;
 }
 
+@media only screen and (max-width: 1000px) {
+  #projects {
+    padding: 0px 10px;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr min-content 6fr;
+    column-gap: 10px;
+  }
+
+  .project p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .project span {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .project img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    min-width: 90vw;
+    max-width: 90vw;
+    min-height: 25vh;
+    max-height: 30vh;
+  }
+}
+
 hr {
   border-width: 0 0 1px;
   color: skyblue;
