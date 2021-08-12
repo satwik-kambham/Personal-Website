@@ -1,0 +1,89 @@
+html {
+  color: #f3f1f3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3ch;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 4vw;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2525;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background-color: #2c2525;
+}
+
+#titleBar {
+  background-color: #ffffff;
+  color: #000;
+  padding: 1ch 1.5ch;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  flex: 0 1 auto;
+}
+
+.link {
+  padding: 0.5ch 1ch;
+}
+
+.link:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .link {
+    padding-left: 0ch;
+  }
+}
+
+#mainContent {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  flex: 1 1 auto;
+  background-color: #2c2525;
+}
+
+#intro {
+  min-width: 100%;
+  align-self: center;
+  background: url(Assets/Background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+#profileImage {
+  border-radius: 50%;
+}
