@@ -9,3 +9,7 @@ document.getElementById("linkedinLink").addEventListener("click", () => {
 document.getElementById("blogLink").addEventListener("click", () => {
   window.open("https://satwikkambham.blogspot.com/", "_blank");
 });
+
+document.getElementById("contactLink").addEventListener("click", () => {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+});
