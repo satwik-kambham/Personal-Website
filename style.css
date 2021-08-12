@@ -74,16 +74,36 @@ body {
 }
 
 #intro {
-  min-width: 100%;
+  max-width: 100%;
   align-self: center;
   background: url(Assets/Background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 40vh;
+  padding: 20vh 20vw 40vh 20vw;
+  color: #2c2525;
+  justify-content: center;
 }
 
-#profileImage {
-  border-radius: 50%;
+.fancyText {
+  font-size: 300%;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.niceButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.niceButton {
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+.niceButton:hover {
+  cursor: pointer;
 }
