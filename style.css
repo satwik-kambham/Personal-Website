@@ -181,6 +181,7 @@ body {
     max-width: 90vw;
     min-height: 25vh;
     max-height: 30vh;
+    justify-self: center;
   }
 }
 
@@ -188,4 +189,9 @@ hr {
   border-width: 0 0 1px;
   color: skyblue;
   border-style: solid;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
 }
