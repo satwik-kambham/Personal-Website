@@ -13,3 +13,7 @@ document.getElementById("blogLink").addEventListener("click", () => {
 document.getElementById("contactLink").addEventListener("click", () => {
   document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 });
+
+document.getElementById("resumeLink").addEventListener("click", () => {
+  window.open("./resume.pdf", "_blank");
+});
