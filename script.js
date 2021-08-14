@@ -15,5 +15,8 @@ document.getElementById("contactLink").addEventListener("click", () => {
 });
 
 document.getElementById("resumeLink").addEventListener("click", () => {
-  window.open("./resume.pdf", "_blank");
+  window.open(
+    "https://github.com/code-explorer/Personal-Website/blob/main/resume.pdf",
+    "_blank"
+  );
 });
