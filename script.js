@@ -1,3 +1,5 @@
+window.open("https://code-explorer.github.io/")
+
 document.getElementById("githubLink").addEventListener("click", () => {
   window.open("https://github.com/code-explorer", "_blank");
 });
